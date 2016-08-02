@@ -22,6 +22,8 @@ extern class Hls
 	
 	function detachMedia():Void;
 	
+	function destroy():Void;
+	
 	function loadSource(url:String):Void;
 	
 	function on( event:String, callback:String->Dynamic->Void ) : Void;
